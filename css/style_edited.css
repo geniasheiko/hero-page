@@ -1,0 +1,71 @@
+
+
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Стиль для hero page */
+.main-block {
+    position: relative;
+    background: url('img/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.main-block_body {
+    padding: 180px 0;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.main-block_title {
+    font-size: 58px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.main-block_text {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.main-block_button_orange {
+    background: #ff7b47;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.main-block_button_orange:hover {
+    background: #ff5722;
+}
+
+.main-block_button_border {
+    border: 2px solid #ff7b47;
+    color: #ff7b47;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.main-block_button_border:hover {
+    background: #ff7b47;
+    color: white;
+}
+
+/* Другие стили остаются такими же */
